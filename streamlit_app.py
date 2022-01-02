@@ -14,17 +14,16 @@ with st.expander("How to use this app", expanded=True):
 
     st.write(
         """
-        - Set width for your app
-        - Choose the number of columns
-        - Choose width for each column
-        - Copy the code below and paste it in your app!
+        1. Set width for your app
+        2. Choose the number of columns
+        3. Choose width for each column
+        4. Copy the code below and paste it in your app!
         """
     )
     st.write("")
 
 st.title("")
 
-# c1, c2 = st.columns([1, 1])
 c1, c2, c3 = st.columns([0.9, 0.1, 1])
 
 with c1:
