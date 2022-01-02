@@ -2,15 +2,15 @@
 
 # 🎈 Width customizer for Streamlit Apps
 
-As of now, you can only change your @streamlit app's width from narrow to wide.
+As of now, you can only change your Streamlit app's width from narrow (default) to wide. You can change to a persistenrt wide mode by adding this code at the topof your ```streamlit_app.py``` file
 
-A simple app to wrangle your CSV files in just a few clicks!
+```python
+# Use the full page instead of a narrow central column
+st.set_page_config(layout="wide")
+```
 
-Wouldn't it be nice to have on-the-fly customisation for:
-
-✓ your app width
-✓ your columns' width
-✓ at a click of a button!
+-   Now, wouldn't it be nice to have custom widths and change on-the-fly?
+-   Wouldn't it be nice to change your columns' width at a click of a button?
 
 I've made an app for that! Check it out! 🎈
 
