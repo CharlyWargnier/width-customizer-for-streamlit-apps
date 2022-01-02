@@ -3,12 +3,14 @@ import streamlit as st
 st.set_page_config(page_title="Width Customizer", page_icon="🎈")
 
 st.image(
-    # "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/recycling-symbol_267b-fe0f.png"
     "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/balloon_1f388.png",
     width=100,
 )
 
-st.title("Width customizer for Streamlit Apps")
+st.title("Width Customizer App")
+
+st.write("Customize your app layout width on the fly! Change your columns' width at a click of a button!")
+
 
 with st.expander("How to use this app", expanded=True):
 
@@ -28,7 +30,7 @@ c1, c2, c3 = st.columns([0.9, 0.1, 1])
 
 with c1:
 
-    number = st.slider("Choose app width (in pixels)", 500, 780, 1400, key="c1Width")
+    number = st.slider("Choose app width (in pixels)", min_value=500, value=780, max_value=1400, key="c1Width")
 
 with c3:
 
