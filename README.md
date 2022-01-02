@@ -15,6 +15,7 @@ I've made an app for that!
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/charlywargnier/width-customizer-for-streamlit-apps/main)
 
+Still barebones. I'm planning to add to it in the future.
 
 Feedback and PR appreciated, as always :) 
 
