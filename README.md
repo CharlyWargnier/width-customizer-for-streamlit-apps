@@ -1,14 +1,21 @@
-# Width customizer for Streamlit Apps
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/charlywargnier/width-customizer-for-streamlit-apps/main)
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/streamlit/example-app-csv-wrangler/main/app.py)
+# 🎈 Width customizer for Streamlit Apps
 
-# ✂️ CSV Wrangler
+As of now, you can only change your @streamlit app's width from narrow to wide.
 
 A simple app to wrangle your CSV files in just a few clicks!
 
--  Easily sort and filter your data
--  Pivot your data on-the-fly
--  Export your data to text or csv
+Wouldn't it be nice to have on-the-fly customisation for:
 
-<img src="https://user-images.githubusercontent.com/27242399/141204626-fe2b779a-2038-4905-b66e-23f00648f1c1.png" width="500"/>
+✓ your app width
+✓ your columns' width
+✓ at a click of a button!
+
+I've made an app for that! Check it out! 🎈
+
+Feedback and PR are appreciated! :) 
+
+<img src="https://user-images.githubusercontent.com/27242399/147889045-f77ee628-4702-4c42-81d6-101c197eeaf4.png" width="500"/>
+
 
